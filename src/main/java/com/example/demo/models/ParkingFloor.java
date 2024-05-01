@@ -11,5 +11,4 @@ public class ParkingFloor extends BaseModels {
     Integer floorNumber;
     DisplayBoard displayBoard;
     PayemntCounter payemntCounter;
-
 }

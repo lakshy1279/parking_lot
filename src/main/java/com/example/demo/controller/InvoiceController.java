@@ -2,12 +2,10 @@ package com.example.demo.controller;
 
 import com.example.demo.dtos.GenerateInvoiceRequest;
 import com.example.demo.dtos.GenerateInvoiceResponseDto;
-import com.example.demo.dtos.GenerateTicketRequest;
 import com.example.demo.exceptions.GateNullException;
 import com.example.demo.exceptions.TicketNullException;
 import com.example.demo.models.Invoice;
 import com.example.demo.service.InvoiceService;
-import com.example.demo.service.TicketService;
 
 public class InvoiceController {
     InvoiceService invoiceService;
